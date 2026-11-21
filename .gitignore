@@ -1,0 +1,24 @@
+# Abhängigkeiten
+node_modules/
+
+# Build-Ausgaben
+dist/
+build/
+*.map
+
+# Logs
+*.log
+npm-debug.log*
+
+# Betriebssystem / Editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Lokale Umgebungsvariablen und Secrets
+.env
+.env.*
+!.env.example
